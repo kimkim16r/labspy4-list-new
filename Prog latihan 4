@@ -1,0 +1,35 @@
+print ('\t*KIM-KIM LATIHAN B.PEMPROGRAMAN *\n')
+
+kim = [1,'kim-kim',16,10,1997]
+
+#akses list
+print ('#*Akses list*#\n')
+print (kim[2])
+print (kim[1:4])
+print (kim[-1])
+print ('\n')
+
+
+#Ubah element list
+print ('#*Ubah elemwnt list*#\n')
+print (kim)
+print ('*')
+kim[3]='Oktober'
+print (kim)
+print ('**')
+kim [3:5]= [ 'Oktober','Tahun  1997']
+print (kim)
+print ('\n')
+
+
+#Menambahkan element list
+print ('#*Menambahkan element list8#')
+print (kim)
+a = kim
+b = a[2:4]
+print (b)
+b.append ('99 Rahman Hakim')
+b.extend ([20,30,40])
+c = a+b
+a.extend(b)
+print (c)
