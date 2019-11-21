@@ -1,0 +1,63 @@
+i = 0
+nama = []
+nim = []
+tugas = []
+uts = []
+uas = []
+total = []
+ketN = []
+A,B,C,D,E = 0,0,0,0,0
+while True :
+    s_nama = input ('Nama\t\t :')
+    nama.append (s_nama)
+    s_nim = input ('NIM\t\t :')
+    nim.append (s_nim)
+    i_tugas=float (input ('Nilai tugas\t :'))
+    tugas.append (i_tugas)
+    i_uts=float (input ('Nilai uts\t :'))
+    uts.append (i_uts)
+    i_uas= float (input ('Nilai uas\t :'))
+    uas.append (i_uas)
+    nilai_akhir = float (i_tugas)*30/100 + float (i_uts)*35/100 + float ( i_uas)*35/100
+    total.append (nilai_akhir)
+    print (nilai_akhir)
+
+    if nilai_akhir<60:
+        ket = 'E'
+        E +=1
+    elif 60 <=nilai_akhir and nilai_akhir <65:
+        ket = 'D'
+        D +=1
+    elif 65<=nilai_akhir and nilai_akhir<75:
+        ket = 'C'
+        C +=1
+    elif 75<=nilai_akhir and nilai_akhir <85:
+        ket = 'B'
+        B +=1
+    else :
+        ket = 'A'
+        A +=1
+
+    ketN.append(ket)
+        
+    
+    tambah = ''
+    while tambah!='y' and tambah!='t' :
+        tambah = input ('\nTambah Data [y/t] : ')
+    i+=1
+    if tambah=='t':
+        break
+
+print ('\t\t\t\t**DAFTAR MAHASISWA**')
+print ('==========================================================================================')
+print (' No.|nama\t|NIM\t|Tugas\t|UTS\t|UAS\t|Akhir\t|ket\t|')
+print ('==========================================================================================')
+for n in range (i):
+    print ("|", n +1,"|",nama [n],"|",nim [n],"|",tugas [n],"|",uts [n],"|",uas [n],"|", total[n],"|",ketN [n],"|")
+print ('==========================================================================================')
+print ('total mahasiswa= ', i )
+print ('total nilai A=',A )
+print ('total nilai B=',B )
+print ('total nilai C=',C )
+print ('total nilai D=',D )
+print ('total nilai E=',E )
