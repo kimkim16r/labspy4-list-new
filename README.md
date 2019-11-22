@@ -28,11 +28,12 @@ Tugas praktikum 4
 </br>  
 </br>
 </br> ** Tugas Program 4 ** 
-</br>
-</br>  
-</br>
-</br>  
-</br>
+</br> 1. Buat sebuah list [ ]
+</br> 2. Gunakan fungsi while true, untuk melakukan perulangan
+</br> 3. Masukan input data,  seperti Nama, Nim Dll. 
+</br> 4. Gunakan fungsi float untuk identitas angka. 
+</br> 5. For in range,  fungsi ini untuk menapilkan data di table. 
+
 </br>  
 </br>
 </br>  
