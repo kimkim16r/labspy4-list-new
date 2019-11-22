@@ -19,9 +19,9 @@ Tugas praktikum 4
 </br>      print (b) 
 </br> Selanjutnya. 
 </br> <> • b. append ('99 Rahman hakim')
-</br> <> • b. extend ([20,30,40]
+</br> <> • b. extend ([20,30,40)]
 </br> <> • c = a+b 
-</br> <> • a.extend(b), maka untuk mengeluarkan hasil gunakan ptint (c).
+</br> <> • a.extend(b), maka untuk mengeluarkan hasil gunakan print (c).
 </br> Selesai. 
 </br>  
 </br>
