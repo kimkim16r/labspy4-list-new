@@ -22,6 +22,8 @@ Tugas praktikum 4
 </br> <> • b. extend ([20,30,40)]
 </br> <> • c = a+b 
 </br> <> • a.extend(b), maka untuk mengeluarkan hasil gunakan print (c).
+![Screenshot (38)](https://user-images.githubusercontent.com/57000408/69415755-cc523480-0d47-11ea-89b0-dd9d195edaea.png)
+
 </br> Selesai. 
 </br>  
 </br>
