@@ -15,13 +15,14 @@ Tugas praktikum 4
 </br> <> • contoh 2  kim [3:5]= 'oktober',  Tahun 1997. Makan element 3-5 (10,1997) akan di ganti dengan 'oktober',Tahun 1997.
 </br> 4. Menambahkan element list 
 </br> <> • a= [kim]
-</br>    • b= a[2:4] > Untuk mengambil data dari list kim dari element 3 dan 4.
+</br> <> • b= a[2:4] > Untuk mengambil data dari list kim dari element 3 dan 4.
 </br>      print (b) 
-</br>
-</br>  
-</br>
-</br>  
-</br>
+</br> Selanjutnya. 
+</br> <> • b. append ('99 Rahman hakim')
+</br> <> • b. extend ([20,30,40]
+</br> <> • c = a+b 
+</br> <> • a.extend(b), maka untuk mengeluarkan hasil gunakan ptint (c).
+</br> Selesai. 
 </br>  
 </br>
 </br>  
