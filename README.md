@@ -43,5 +43,6 @@ Tugas praktikum 4
 </br>
 </br>  Selesai
 </br>
-</br>
-</br></br>
+</br> Flowchart>>
+</br></br>![PicsArt_11-23-03 50 16](https://user-images.githubusercontent.com/57000408/69476197-66c67c80-0e09-11ea-9148-ec7075ae6843.jpg)
+
