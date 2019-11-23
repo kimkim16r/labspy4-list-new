@@ -43,5 +43,5 @@ Tugas praktikum 4
 </br>
 </br>  Selesai
 </br>
-</br> Flowchart >>
+</br>
 </br></br>
